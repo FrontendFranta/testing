@@ -7,7 +7,7 @@ function Navbar() {
         <div className="container">
         <a class="navbar-brand" href="#">Frantik</a>
         <div class="navbar-nav">
-        <a class="nav-link"><NavLink to="/testing" className={({isActive})=>
+        <a class="nav-link"><NavLink to="testing" className={({isActive})=>
     isActive ? "activeLink": "nonactiveLink"
     }>Domů</NavLink></a>
         <a class="nav-link"><NavLink to="/Skills" className={({isActive})=>
