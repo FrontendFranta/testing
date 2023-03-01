@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container">
-        <a class="navbar-brand" href="#">Negr</a>
+        <a class="navbar-brand" href="#">Frantik</a>
         <div class="navbar-nav">
         <a class="nav-link"><NavLink to="/" className={({isActive})=>
     isActive ? "activeLink": "nonactiveLink"
