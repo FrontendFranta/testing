@@ -1,7 +1,5 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import movies from "../components/data"
-import {Link} from "react-router-dom"
 function Skills() {
     return (
      <div>
