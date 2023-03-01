@@ -12,7 +12,6 @@ function App() {
     <Route path="/" element={ <Home /> } />
     <Route path="/Skills" element={ <Skills /> } />
     <Route path="/contact" element={ <Contact /> } />
-    <Route path="all-skills/:movieId" element={<OneSkill/>}/>
     <Route path="*" element={ <Error/> } />
   </Routes>
  
